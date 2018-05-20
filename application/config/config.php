@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://18.216.165.225';
+$config['base_url'] = 'http://balacer01pruebalinux-1680114045.us-east-2.elb.amazonaws.com';
 
 /*
 |--------------------------------------------------------------------------
