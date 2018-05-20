@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'aplicacion.c4h05wc2loza.us-east-2.rds.amazonaws.com',
 	'username' => 'root',
-	'password' => 'root',
+	'password' => 'developer123*',
 	'database' => 'aplicacion_aws',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
