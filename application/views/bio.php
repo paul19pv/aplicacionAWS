@@ -44,16 +44,24 @@
                     </div>
                 </div>
                 <div class="row">
-                    <p><b>Cedula: </b><?= $persona['cedula']?></p><br>
+                    <div class="col-sm-2">
+                        &nbsp;
+                    </div>
+                    <div class="col-sm-10">
+                        <h3>Datos Informativos</h3>
+                    </div>
+                    
                 </div>
                 <div class="row">
-                    <p><b>Telefono: </b><?= $persona['telefono']?></p><br>
-                </div>
-                <div class="row">
-                    <p><b>Dirección: </b><?= $persona['direccion']?></p><br>
-                </div>
-                <div class="row">
-                    <p><b>Carrera Profesional: </b><?= $persona['carrera']?></p><br>
+                    <div class="col-sm-2">
+                        &nbsp;
+                    </div>
+                    <div class="col-sm-10">
+                        <p><b>Cedula: </b><?= $persona['cedula']?></p>
+                        <p><b>Telefono: </b><?= $persona['telefono']?></p>
+                        <p><b>Dirección: </b><?= $persona['direccion']?></p>
+                        <p><b>Carrera Profesional: </b><?= $persona['carrera']?></p>
+                    </div>
                 </div>
 
             </div>
