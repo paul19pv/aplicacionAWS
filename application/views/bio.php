@@ -33,18 +33,29 @@
         <main role="main">
             <div class="jumbotron">
                 <div class="row">
-                <div class="col-sm-2">
-                    <img src="<?= base_url() . 'images/' . $persona['imagen'] ?>" alt="..." class="img-thumbnail">
+                    <div class="col-sm-2">
+                        <img src="<?= base_url() . 'images/' . $persona['imagen'] ?>" class="img-thumbnail">
+                    </div>
+                    <div class="col-sm-10">
+                        <h1 class="display-4"><?= $persona['nombre'] . " " . $persona['apellido'] ?></h1>
+                        <hr class="my-4">
+                        <p class="lead"><?= $persona['bio'] ?></p>
+
+                    </div>
                 </div>
-                <div class="col-sm-10">
-                   <h1 class="display-4"><?= $persona['nombre'] . " " . $persona['apellido'] ?></h1>
-                    <hr class="my-4">
-                    <p class="lead"><?= $persona['bio'] ?></p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> 
+                <div class="row">
+                    <p><b>Cedula: </b><?= $persona['cedula']?></p><br>
                 </div>
-            </div>
-                
-                
+                <div class="row">
+                    <p><b>Telefono: </b><?= $persona['telefono']?></p><br>
+                </div>
+                <div class="row">
+                    <p><b>Dirección: </b><?= $persona['direccion']?></p><br>
+                </div>
+                <div class="row">
+                    <p><b>Carrera Profesional: </b><?= $persona['carrera']?></p><br>
+                </div>
+
             </div>
 
         </main>
